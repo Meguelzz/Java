@@ -1,8 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.mavenproject3;
+
+import java.util.Scanner;
 
 /**
  *
@@ -11,18 +9,24 @@ package com.mycompany.mavenproject3;
 public class Aula1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-//ENTRADA//
-     int A,B,C,D;
-     A=1;
-     B=4;
-     C=8;
 
-//PROCESSAMENTO//
-    D=A+B+C;
-
-//SAÍDA//
-    System.out.println("***Treinamentoo de estrutura lógica***");
-    System.out.println(" O valor de D será:" +D);
-            } 
+        // ENTRADA
+        Scanner scanner = new Scanner(System.in);
+        
+        int idade;
+        
+        System.out.println("--- Programa de comparação maior idade ---");
+        System.out.print("Digite a idade: ");
+        idade = scanner.nextInt();
+        
+        // PROCESSAMENTO
+        if (idade >= 18) {
+            System.out.println("Aluno maior de idade");
+        } else {
+            System.out.println("Aluno menor de idade");
+        }
+        
+        // Fechando o scanner
+        scanner.close();
+    }
 }
