@@ -1,0 +1,38 @@
+package Exerc8;
+
+public class Funcionario {
+        private String nome;
+        private double salario;
+        private String cargo;
+    
+        public String getNome() {
+            return nome;
+        }
+
+        public void setNome(String nome) {
+            this.nome = nome;
+            System.out.println("Nome: " + getNome());
+        }
+
+        public double getSalario() {
+            return salario;
+        }
+
+        public void setSalario(double salario) {
+            if (salario >= 1412.00) {
+                this.salario = salario;
+                System.out.println("Salário: R$ " + getSalario());
+            } else {
+                System.out.println("Salário: Inválido");
+            }
+        }
+
+        public String getCargo() {
+            return cargo;
+        }
+        
+        public void setCargo(String cargo) {
+            this.cargo = cargo;
+            System.out.println("Cargo: " + getCargo());
+        }
+}
