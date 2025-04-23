@@ -1,5 +1,3 @@
-package Exerc8;
-
 public class Funcionario {
         private String nome;
         private double salario;
