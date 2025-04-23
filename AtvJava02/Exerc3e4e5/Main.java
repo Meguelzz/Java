@@ -1,5 +1,3 @@
-package Exerc3e4e5;
-
 public class Main {
     public static void main(String[] args) {
 
