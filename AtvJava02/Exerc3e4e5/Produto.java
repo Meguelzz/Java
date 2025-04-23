@@ -1,5 +1,3 @@
-package Exerc3e4e5;
-
 public class Produto {
     private String nome;
     private double preco;
