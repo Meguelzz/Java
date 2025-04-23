@@ -27,7 +27,7 @@ public class Aluno {
     }
 
     public double getNota2(){
-        return nota1;
+        return nota2;
     }
 
     public void setNota2(double nota2){
@@ -48,7 +48,8 @@ public class Aluno {
             System.out.println("Média: " + calcularMedia(nota1, nota2));
             System.out.println("Aprovado!!");
         } else {
-            System.out.println("Recuperação");
+            System.out.println("Média: " + calcularMedia(nota1, nota2));
+            System.out.println("Reprovado");
         }
     }
 
