@@ -1,5 +1,3 @@
-package Exerc6e7;
-
 public class Main {
     public static void main(String[] args) {
         new ClasseB().testarAcesso();
